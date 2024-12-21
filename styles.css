@@ -1,0 +1,37 @@
+/* Basic styling for demonstration purposes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+
+    background-image: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712016000&semt=ais');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Font */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex; /* Added */
+    justify-content: center; /* Added */
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.right-links { /* Added */
+    margin-left: auto; /* Added */
+}
